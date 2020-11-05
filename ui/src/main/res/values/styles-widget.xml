@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button.Rounded.Accent" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/Text.Button</item>
+        <item name="android:textColor">@color/btn_white</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+    <style name="ButtonRounded.Accent.Close" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/Text.Button</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:backgroundTint">@color/btn_white</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+    <style name="ButtonMaterial.Rounded" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/Text.Button</item>
+        <item name="android:textColor">@color/btn_white</item>
+        <item name="android:backgroundTint">#3c6399</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+</resources>
